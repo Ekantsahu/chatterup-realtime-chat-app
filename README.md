@@ -1,4 +1,3 @@
-I see the issue! The problem is that you're nesting a code block inside a markdown code block. Here's the **correct raw text** you should copy and paste directly into your README.md file (don't wrap it in another markdown block):
 
 ```markdown
 # ChatterUp 💬
