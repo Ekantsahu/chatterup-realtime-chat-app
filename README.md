@@ -46,29 +46,28 @@ ChatterUp enables users to communicate instantly with live messaging, typing ind
 
 ```
 ChatterUp/
-│
-├── client/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── styles/
-│   │   ├── socket.js
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│
-├── server/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── sockets/
-│   │   ├── routes/
-│   │   └── app.js
-│   │
-│   ├── server.js
-│   ├── .env
-│   └── package.json
+|
++-- client/
+| +-- src/
+| | +-- assets/
+| | +-- components/
+| | +-- pages/
+| | +-- styles/
+| | +-- socket.js
+| | +-- App.jsx
+| | +-- main.jsx
+|
++-- server/
+| +-- src/
+| | +-- config/
+| | +-- controllers/
+| | +-- models/
+| | +-- sockets/
+| | +-- routes/
+| | +-- app.js
+| +-- server.js
+| +-- .env
+| +-- package.json
 ```
 
 ---
