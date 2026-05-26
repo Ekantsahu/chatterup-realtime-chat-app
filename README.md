@@ -1,3 +1,4 @@
+I see the issue! The problem is that you're nesting a code block inside a markdown code block. Here's the **correct raw text** you should copy and paste directly into your README.md file (don't wrap it in another markdown block):
 
 ```markdown
 # ChatterUp 💬
@@ -180,10 +181,9 @@ stopTyping
 - Optimized responsive design
 - Mobile-friendly chat layout
 
-<img width="1919" height="903" alt="Screenshot 2026-05-26 203429" src="https://github.com/user-attachments/assets/cfe25b58-0eb8-463f-a290-696c2ebcabdf" />
+![Desktop View](https://github.com/user-attachments/assets/cfe25b58-0eb8-463f-a290-696c2ebcabdf)
 
-<img width="438" height="840" alt="Screenshot 2026-05-26 203542" src="https://github.com/user-attachments/assets/b9fe5bde-a2cc-4abd-b073-a757d2761b46" />
-
+![Mobile View](https://github.com/user-attachments/assets/b9fe5bde-a2cc-4abd-b073-a757d2761b46)
 
 ---
 
@@ -210,4 +210,3 @@ stopTyping
 
 This project is created for educational and learning purposes.
 ```
-
